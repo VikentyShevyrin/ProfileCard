@@ -86,7 +86,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
+/* ^ Removing user agent styles ^ */
 
 *,
 *::before,
@@ -105,7 +105,7 @@ a:hover {
 
 body {
   background-color: wheat;
-  background: url(/background.jpg);
+  background: url(background.jpg);
   font-family: "Lato", sans-serif;
   color: #262722;
 }
